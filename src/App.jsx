@@ -1,15 +1,10 @@
 import React from "react";
-import "./style.css";
-import Card from "./components/Card";
+import Main from "./components/Main";
+import "./Components/style.css";
 function App() {
   return (
     <>
-      <div className="container">
-        <div className="left-content">
-          <Card />
-        </div>
-        <div className="right-content"></div>
-      </div>
+      <Main />
     </>
   );
 }
